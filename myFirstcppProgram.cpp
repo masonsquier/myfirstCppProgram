@@ -3,6 +3,8 @@
 #include "myHeader.h"
 #include "MyotherHeader.h"
 
+#include "../sumHeaders/twoplustwo.h"
+
 int main()
 {
 
@@ -10,7 +12,7 @@ int main()
     
     std::cout << returnNum() << std::endl;
 
-    std::cout << wowSus();
+    std::cout << wowSus() << " " << wowAdd() ;
     
 }
 
